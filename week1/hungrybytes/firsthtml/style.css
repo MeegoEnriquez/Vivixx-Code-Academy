@@ -1,0 +1,22 @@
+h1 {
+	font-size :80px;
+	color: #D35400;
+	/* this is a comment */
+}
+.item{
+	font-size: 30px;
+	color: #ff0000;
+	/* this is a comment */
+}
+#header{ 
+	font-size : 20px;
+	color: #000000;
+	/* this is a comment */
+}
+img {
+	height:auto;
+	width:50%;
+}a {
+	text-decoration: none;
+	color:#FF0000;
+}

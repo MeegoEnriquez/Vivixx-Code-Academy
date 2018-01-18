@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+* {
+	margin:0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+/* For fonts */
+
+.clear{
+	clear:both;
+}
+/* clear for border */
+
+body{
+	padding: 20px;
+	background-color: #ffffff;
+}
+
+#header {
+	margin : 10px ;
+	padding:30px;
+	border-bottom: 1px solid #000000;
+}
+#logo{
+	font-size:40px;
+	float-right;
+}
+#logo img{
+	height:60px;
+	width: auto;
+	border-right:1px solid #000000;
+   padding-right:10px;
+}
+#logo, #menu{
+	float:left;
+	width:50%;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.top-left {
+    position: absolute;
+    top: 200px;
+    left:230px;
+    font-size:80px;
+    font-family: 'Roboto', sans-serif;
+}
+.information {
+    position: absolute;
+    top:300px;
+    left: 40px;
+    font-size:15px;
+    font-family: 'Roboto', sans-serif;
+    width:50%;
+}
+#menu {
+text-align:right;
+}
+
+#menu ul {
+	list-style: none;
+	display: inline-block;
+}
+/*inline block inorder to put the menu with an existing border*/
+#menu l li{ 
+	float:left;
+}
+#menu ul li{
+	display: inline-block;
+}
+#menu ul li a{
+	text-decoration: none;
+	color: #000000;
+	padding: 10px;
+	font-size: 30px;
+}
+/* For menu spacing */
+#address {
+	float:left;
+	color:#000000;
+	
+}
+
+#copyright { 
+float:right; 
+color:#000000;
+}
+

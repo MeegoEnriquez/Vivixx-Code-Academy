@@ -23,13 +23,12 @@ body{
 }
 #logo{
 	font-size:40px;
-	float-right;
 }
 #logo img{
 	height:60px;
 	width: auto;
-	border-right:1px solid #000000;
    padding-right:10px;
+   
 }
 #logo, #menu{
 	float:left;

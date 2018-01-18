@@ -22,30 +22,6 @@ body{
 	border-right:1px solid #000000;
    padding-right:10px;
 }
-
-}
-
-#menu {
-text-align:right;
-}
-
-#menu ul {
-	list-style: none;
-	display: inline-block;
-}
-/*inline block inorder to put the menu with an existing border*/
-#menu l li{ 
-	float:left;
-}
-#menu ul li{
-	display: inline-block;
-}
-#menu ul li a{
-	text-decoration: none;
-	color: #000000;
-	padding: 10px;
-	font-size: 30px;
-}
 /* For menu spacing */
 
 #hero {
@@ -56,7 +32,6 @@ text-align:right;
 	width:100%;
 	height:auto;
 	padding-bottom:10px;
-	
 }
 .featured-image {
 	float:left;

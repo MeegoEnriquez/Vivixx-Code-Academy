@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
-* {
+body {
 	margin:0;
 	padding: 0;
 	font-family: 'Roboto', sans-serif;
 }
+
 /* For fonts */
 
 .clear{
@@ -37,11 +38,17 @@ body{
 	float:left;
 	width:23%;
 	margin: 0 1% 0 0;
-	border-right: 1px solid;
-
+	border-right: 1px solid #000000;
+	background-color: #FFFFFF;
+	color:  #D8A90B;
+	text-shadow: 5px 5px 50px #030202;
+	outline: 10px auto #FFB340;
+outline-offset: 1px;
+	
 }
 .featured-image.second{
 	margin: 0 1% 0 0;
+
 }
 .featured-image.third{
 	margin: 0 0 0 1%;
@@ -86,7 +93,7 @@ float:right;
     left: 0;
     background-color: #FFFFFF; /* Black */
     overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 20px;
+    padding-top: 20px; 
 }
 
 /* The navigation menu links */
@@ -101,6 +108,12 @@ float:right;
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
     color: #D8A90B;
+    text-shadow: 5px 5px 50px #030202;
+    -webkit-transition: all 1s ease-in-out;
+-moz-transition: all 1s ease-in-out;
+-ms-transition: all 1s ease-in-out;
+-o-transition: all 1s ease-in-out;
+transition: all 1s ease-in-out;
 }
 
 /* Style page content */

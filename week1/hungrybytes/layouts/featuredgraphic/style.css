@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
-* {
+body {
 	margin:0;
 	padding: 0;
 	font-family: 'Roboto', sans-serif;
@@ -44,15 +44,19 @@ body{
     top: 200px;
     left:230px;
     font-size:80px;
-    font-family: 'Roboto', sans-serif;
+    text-shadow: 5px 2px 6px #5C5C5C;
+
 }
+
 .information {
     position: absolute;
     top:300px;
     left: 40px;
     font-size:15px;
-    font-family: 'Roboto', sans-serif;
     width:50%;
+    text-shadow: 5px 2px 6px #5C5C5C;
+
+
 }
 #menu {
 text-align:right;
@@ -72,9 +76,21 @@ text-align:right;
 #menu ul li a{
 	text-decoration: none;
 	color: #000000;
-	padding: 10px;
+	padding: 20px;
 	font-size: 30px;
 }
+#menu ul li a:hover{
+	text-decoration: none;
+	background-color: #B0ADA1;
+	color: #D8A90B;
+	padding: 20px;
+	font-size: 30px;
+-webkit-transition: background  1s ease-in-out;
+-moz-transition: background  1s ease-in-out;
+-ms-transition: background  1s ease-in-out;
+-o-transition: background  1s ease-in-out;
+transition: background 1s ease-in-out;}
+
 /* For menu spacing */
 #address {
 	float:left;
@@ -90,3 +106,28 @@ color:#000000;
 	margin-top: 1%;
 }
 
+/* For responsive web design */
+@media (max-width: 767px) {
+
+
+
+}
+
+@media (max-width: 480px) {
+	.information {
+    position: absolute;
+    top:300px;
+    left: 40px;
+    font-size:5px;
+    width:50%;
+    text-shadow: 5px 2px 6px #5C5C5C;}
+
+ 	   .top-left {
+    position: absolute;
+    top: 200px;
+    left:230px;
+    font-size:40px;
+    text-shadow: 5px 2px 6px #5C5C5C;
+
+}	
+}

@@ -1,0 +1,118 @@
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title></title>
+
+    <style>
+
+        #test,#dog,#circle{
+
+            background: #6F6B6B
+
+;
+
+            color: #ffffff
+
+;
+
+        }
+
+    </style>
+
+</head>
+
+
+
+
+
+<body>
+
+    <div id="test"></div><br/><br/>
+
+    <div id="dog"></div><br/><br/>
+
+    <div id="circle"></div>
+
+
+    <script>
+
+        //AGE CALCULATOR
+
+        function age(yearBorn, year){
+
+            var result=year-yearBorn;
+
+        return 'Age in ' + year + ' is: ' + result
+
+        }
+
+
+
+        document.querySelector('#test').innerHTML = age(1998,2060) + '<br/>';
+
+        document.querySelector('#test').innerHTML += age(1998,2018);
+
+
+
+        //DOGYEAR CONVERTER
+
+        function dogYear (lifespan) {
+
+            var result=(lifespan*7);
+
+        return lifespan + ' years in human life is ' + result + ' years in dog life.'
+
+        }
+
+
+
+        document.querySelector('#dog').innerHTML += dogYear(18);
+
+
+
+        //Circumference of circle
+
+         function circum (r){
+
+             var result=(2*Math.PI*r);
+
+             return 'Circumference with radius=' + r + ' is: ' + result
+
+         }
+
+         document.querySelector('#circle').innerHTML += circum(10) +'<br/>';
+
+         document.querySelector('#circle').innerHTML += circum(8) +'<br/>';
+
+
+              function area(r){
+
+             var result=(Math.PI)*r*r;
+
+             return 'Circumference with radius=' + r + ' is: ' + result
+
+         }
+
+         document.querySelector('#circle').innerHTML += area(10) +'<br/>';
+
+         document.querySelector('#circle').innerHTML += area(8) +'<br/>';
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+
+</body>
+
+</html>
